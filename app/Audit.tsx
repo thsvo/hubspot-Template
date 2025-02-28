@@ -5,23 +5,23 @@ import { Check } from "lucide-react";
 
 const auditItems = [
   {
-    title: "Data Quality & Governance",
+    title: "Deep Dive into Your CRM Data – Identify & fix bad data",
     id: 1,
   },
   {
-    title: "Pipeline & Sales Process Optimization",
+    title: "Sales Process Optimization – Eliminate bottlenecks & increase deal flow.",
     id: 2,
   },
   {
-    title: "Marketing & Sales Alignment",
+    title: "Align Marketing & Sales – Get everyone on the same revenue strategy",
     id: 3,
   },
   {
-    title: "Workflow Automation & Efficiency",
+    title: "Fix Broken Automations – Stop wasting leads with inefficiencies.",
     id: 4,
   },
   {
-    title: "User Adoption & System Utilization",
+    title: "Optimize for Higher Conversions – Turn your CRM into a revenue machine",
     id: 5,
   },
   {

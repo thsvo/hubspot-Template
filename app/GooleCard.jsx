@@ -6,37 +6,37 @@ import Image from "next/image";
 const ProductInfo = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [heroImage, setHeroImage] = useState(
-    "https://lh3.googleusercontent.com/nz1xxtKWgEddMXQgK7JRT-j_xoU4KNnQpoCNKrtNHTRBTl6MTHdiQXMjYuONBy59780HS5bU8zYqlAEZY6wLccUmxPgs-qps-y0z=rw-e365-w800"
+    "https://cdn.codeopx.com/crm3.jpg"
   );
 
   const images = [
     "https://cdn.codeopx.com/leakage.png",
-    "https://lh3.googleusercontent.com/vXIxKa19RbtY2WAeVcNi_DgwWuNVJsY4mA_PDFQfpM5_jkhAnHxrqDM7Na95RqHkMvODppqzN-bJHc7iWEZ1VLLO4bCTzy9i5tM=rw-e365-w800",
-    "https://lh3.googleusercontent.com/29aEaKMXRAbMEyPyeE4-PA4Nad6BRMT7vbrT8uw5WbG6mg5CPMc2yytofXtPgNRCAmpbZnLPUYYX-0SbWxWe66xaLFvpyxj68_M=rw-e365-w800",
+    "https://cdn.codeopx.com/data1.jpg",
+    "https://cdn.codeopx.com/data2.png",
     "https://cdn.codeopx.com/pix.jpg",
   ];
 
   const accordionItems = [
     {
-      title: "Data integrity issues",
+      title: "❌ Inaccurate Data ",
       content:
         "Inaccurate, duplicate, or incomplete records leading to flawed decision-making",
       imgSrc: "https://cdn.codeopx.com/hubspot.svg",
     },
     {
-      title: "Automation inefficiencies",
+      title: "🔄️ Broken Automations",
       content:
         "Broken workflows causing delays in sales cycles and missed opportunities",
       imgSrc: "https://cdn.codeopx.com/hubspot.svg",
     },
     {
-      title: "Underutilized features",
+      title: "📉 Underutilized Features",
       content:
         "Key HubSpot tools not being leveraged effectively, limiting ROI",
       imgSrc: "https://cdn.codeopx.com/hubspot.svg",
     },
     {
-      title: "Revenue leakage",
+      title: "💰 Lost Revenue Opportunities",
       content:
         "Poor lead management resulting in lost sales and lower conversions",
       imgSrc: "https://cdn.codeopx.com/hubspot.svg",
@@ -65,7 +65,7 @@ const ProductInfo = () => {
         {/* Right: Content Section */}
         <div className="w-full lg:w-1/2 p-10">
           <h2 className="text-[2.2rem] font-semibold leading-tight mb-6">
-            Why a HubSpot Audit is Essential
+            📉 Is Your HubSpot CRM Hurting Your Sales?
           </h2>
 
           {/* Accordion */}

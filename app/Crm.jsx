@@ -47,12 +47,15 @@ const CrmSection = () => {
       <div className="mt-[-50px] flex h-screen items-center justify-center">
         <div className="max-w-full flex-shrink-0 px-4 text-center lg:mx-0 lg:max-w-3xl lg:pt-8">
           <h1 className="mt-10 text-5xl font-bold tracking-tight text-white sm:text-6xl">
-            Unlock the Full Potential{" "}
-            <span className="text-[#ff5c35]"> of Your HubSpot CRM</span>{" "}
+         
+
+          Your HubSpot CRM is Costing{" "}
+            <span className="text-[#ff5c35]"> You Sales – Fix It Now</span>{" "}
             <span className="text-[#ffffff]"></span>
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            With a Comprehensive, Data-Driven Audit
+          Get a Free CRM Audit & Unlock Hidden Revenue Opportunities
+
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
             A well-optimized CRM is the foundation of high-performing sales and
@@ -62,11 +65,11 @@ const CrmSection = () => {
           </p>
           <div className="mt-5 flex items-center justify-center gap-x-6">
             <a
-              href="/register"
+              href="https://contract.josephhelmy.com"
               className="rounded-md bg-[#ff5c35] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:[#ff5c35] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-400"
               rel="noreferrer"
             >
-              Schedule Your Audit Now →
+              Get My Free HubSpot Audit →
             </a>
           </div>
         </div>

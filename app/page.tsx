@@ -11,6 +11,7 @@ export default function LandingPage() {
   return (
     <div>
       {/* <Hero></Hero> */}
+
       <CrmSection></CrmSection>
       <div className="min-h-screen bg-[#f8f9fa]">
         {/* Hero Section */}
@@ -98,11 +99,19 @@ export default function LandingPage() {
             Claim Your CRM Audit Today
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-[#34495e]">
-            Take control of your HubSpot CRM's performance and maximize its
-            impact. Schedule your HubSpot Audit, and let's uncover new
-            opportunities to accelerate your business growth!
+            <span className="font-bold">
+              {" "}
+              🔥 Your CRM Should Work for You, Not Against You
+            </span>{" "}
+            <br />
+            Don’t let bad data, broken automations, and inefficiencies cost you
+            sales. Claim your
+            <span className="font-bold">
+              FREE HubSpot CRM Audit today{" "}
+            </span> and{" "}
+            <span className="font-bold"> start closing more deals faster!</span>
           </p>
-          <a href="/register">
+          <a href="https://contract.josephhelmy.com">
             <Button
               size="lg"
               className="text-lg bg-[#ff5c35] hover:bg-[#ff5c35] text-[white]"
