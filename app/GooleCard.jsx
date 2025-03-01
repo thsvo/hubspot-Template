@@ -1,4 +1,4 @@
-"use client"; // Ensure this runs only on the client side
+"use client"; 
 
 import { useState } from "react";
 import Image from "next/image";
@@ -108,7 +108,7 @@ const ProductInfo = () => {
                   }`}
                 >
                   <p className="mb-4 leading-6">{item.content}</p>
-                  <Image src={item.imgSrc} width={32} height={32} alt="" />
+                  {/* <Image src={item.imgSrc} width={32} height={32} alt="" /> */}
                 </div>
               </div>
             ))}

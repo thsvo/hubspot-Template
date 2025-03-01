@@ -54,12 +54,12 @@ const CrmSection = () => {
             <span className="text-[#ffffff]"></span>
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-          Get a Free CRM Audit & Unlock Hidden Revenue Opportunities
+          Get a CRM Audit & Unlock Hidden Revenue Opportunities
 
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
             A well-optimized CRM is the foundation of high-performing sales and
-            marketing operations. Our HubSpot CRM Audit is designed to uncover
+            marketing operations. A HubSpot CRM Audit is designed to uncover
             gaps, refine your processes, and empower your team with strategic
             insights that drive growth.
           </p>
