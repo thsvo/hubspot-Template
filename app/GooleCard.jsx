@@ -65,7 +65,7 @@ const ProductInfo = () => {
         {/* Right: Content Section */}
         <div className="w-full lg:w-1/2 p-10">
           <h2 className="text-[2.2rem] font-semibold leading-tight mb-6">
-            📉 Is Your HubSpot CRM Hurting Your Sales?
+            📉 Is Your CRM Hurting Your Sales?
           </h2>
 
           {/* Accordion */}

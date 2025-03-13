@@ -4,8 +4,9 @@ import { ArrowRight } from "lucide-react";
 
 import CrmSection from "./Crm";
 import ProductInformation from "./GooleCard";
-import HubspotAudit from "./Audit";
 import GTMScript from "./GTM";
+import CommonSection from "./CommonSection";
+import HubSpotMeetings from "./HubSpot";
 
 export const metadata = {
   title: "🚀 Optimize Your CRM | Increase Sales & Efficiency with a CRM Audit ",
@@ -18,11 +19,12 @@ export default function LandingPage() {
   return (
     <div>
       <GTMScript></GTMScript>
+
       <CrmSection></CrmSection>
       <div className="min-h-screen bg-[#f8f9fa]">
         <ProductInformation></ProductInformation>
-
-        <HubspotAudit></HubspotAudit>
+        <CommonSection></CommonSection>
+        {/* <HubspotAudit></HubspotAudit> */}
 
         {/* <h2 className="text-3xl font-bold mb-12 text-center text-[#2c3e50]">
           The Value of Your CRM Audit
@@ -30,23 +32,24 @@ export default function LandingPage() {
         {/* <MarqueeSlides></MarqueeSlides> */}
 
         <section className="container mx-auto px-4 py-20 text-center bg-[#f8f9fa]">
-          <h2 className="text-3xl font-bold mb-6 text-[#2c3e50]">
-            Claim Your CRM Audit Today
+          <h2 className="text-3xl font-bold mb-2 text-[#2c3e50]">
+            Schedule Your CRM Audit Consultation
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto text-[#34495e]">
-            <span className="font-bold">
-              {" "}
-              🔥 Your CRM Should Work for You, Not Against You
-            </span>{" "}
-            <br />
-            Don’t let bad data, broken automations, and inefficiencies cost you
-            sales. Claim your
-            <span className="font-bold">
-              FREE HubSpot CRM Audit today{" "}
-            </span> and{" "}
-            <span className="font-bold"> start closing more deals faster!</span>
+          <br />
+          <p className="mx-auto max-w-2xl text-muted-foreground">
+            Ready to transform your CRM into a revenue-driving machine? It
+            starts with a conversation. Schedule a meeting with me to discuss
+            your needs and kick off a CRM audit tailored to your business. I’ll
+            walk you through how I can resolve your CRM challenges and unlock
+            new growth opportunities. Don’t let inefficiencies hold you
+            back—take the first step toward a high-performing CRM and watch your
+            sales soar. <br />
+             Join the ranks of forward-thinking organizations that
+            have optimized their sales process with a CRM audit. Let’s ensure
+            your CRM is fueling your growth, not hindering it.
           </p>
-          <a href="https://contract.josephhelmy.com">
+          <br />
+          <a href="#contract">
             <Button
               size="lg"
               className="text-lg bg-[#ff5c35] hover:bg-[#ff5c35] text-[white]"
@@ -56,6 +59,8 @@ export default function LandingPage() {
           </a>
         </section>
       </div>
+
+      <HubSpotMeetings></HubSpotMeetings>
     </div>
   );
 }

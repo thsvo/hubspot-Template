@@ -1,6 +1,6 @@
 const CrmSection = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900">
+    <div className="relative isolate overflow-hidden bg-gray-900 sm:pt-16 lg:pt-1 max-h-screen">
       <svg
         className="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
         aria-hidden="true"
@@ -47,29 +47,26 @@ const CrmSection = () => {
       <div className="mt-[-50px] flex h-screen items-center justify-center">
         <div className="max-w-full flex-shrink-0 px-4 text-center lg:mx-0 lg:max-w-3xl lg:pt-8">
           <h1 className="mt-10 text-5xl font-bold tracking-tight text-white sm:text-6xl">
-         
+          Unlock Revenue Growth with an 
 
-          Your HubSpot CRM is Costing{" "}
-            <span className="text-[#ff5c35]"> You Sales – Fix It Now</span>{" "}
+         
+            <span className="text-[#ff5c35]"> Expert CRM Audit </span>{" "}
             <span className="text-[#ffffff]"></span>
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-          Get a CRM Audit & Unlock Hidden Revenue Opportunities
+          Identify and Fix CRM Issues Holding Back Your Sales 
 
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            A well-optimized CRM is the foundation of high-performing sales and
-            marketing operations. A HubSpot CRM Audit is designed to uncover
-            gaps, refine your processes, and empower your team with strategic
-            insights that drive growth.
+          Is your CRM system truly supporting your business growth, or is it leaking valuable opportunities? My CRM Performance Audit helps organizations of all sizes, particularly those poised for growth pinpoint data problems, process inefficiencies, and automation gaps. I optimize your sales process to ensure no lead slips through the cracks, driving higher lead conversion and sustainable revenue growth. 
           </p>
           <div className="mt-5 flex items-center justify-center gap-x-6">
             <a
-              href="https://contract.josephhelmy.com"
+              href="#contract"
               className="rounded-md bg-[#ff5c35] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:[#ff5c35] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-400"
               rel="noreferrer"
             >
-              Get My Free HubSpot Audit →
+              Get My CRM Audit →
             </a>
           </div>
         </div>
